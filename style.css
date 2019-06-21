@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: #292e34;
+}
+
+a {
+    color: #7e94fb;
+}
+
+.container {
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem;
+    background-color: #292e34;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-heading {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.profile {
+    display: flex;
+    padding: 1rem 0 1.5rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.profile-info {
+    max-width: 60%;
+    padding-left: 1rem;
+}
+
+.list-jobs {
+    display: flex;
+    flex-direction: column;
+}
+
+.job:nth-child(odd) {
+    background: #274B74;
+    background: -webkit-linear-gradient(135deg, #274B74, #8233C5, #E963FD);
+    background: linear-gradient(135deg, #274B74, #8233C5, #E963FD);
+}
+
+.job:nth-child(even) {
+    background: #574BCD;
+    background: -webkit-linear-gradient(135deg, #574BCD, #2999AD, #41E975);
+    background: linear-gradient(135deg, #574BCD, #2999AD, #41E975);
+}
+
+.job {
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem 0.5rem 1.5rem;
+}
+
+.job-heading {
+    font-size: 1.5rem;
+    padding-bottom: .1rem;
+}
+
+.job-description {
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.job-link {
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.job-link::after {
+    content: '→';
+}
+
+.home-footer {
+    background-color: #1c1f23;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+.home-footer a {
+    margin: 1rem;
+}
+
+.list-contacts span {
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding-bottom: 2rem;
+}
+
+footer p {
+    color: #7e94fb;
+    font-family: 'Montserrat', sans-serif;
+}
+
+address {
+    margin: 1rem 0;
+}
+
+address a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 576px) {
+    .profile-info {
+        padding-top: 1rem;
+    }
+    .job {
+        padding: 1rem 1rem 1.5rem;
+    }
+}
