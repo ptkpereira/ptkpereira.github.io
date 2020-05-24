@@ -16,7 +16,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Patrick Pereira - Desenvolvedor & Designer</title>
+  <title>Patrick Pereira - Desenvolvedor Web</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -28,15 +28,19 @@
 <body>
   <div class="container">
     <header class="home-header" data-aos="zoom-out" data-aos-easing="ease-in-sine">
-      <h1><a class="profile-heading" href="/" title="Patrick Pereira - Desenvolvedor Web">Patrick Pereira</a></h1>
-      <div class="profile">
-        <img class="profile-img" src="https://media.licdn.com/dms/image/C4E03AQFMzfmFyJ9juA/profile-displayphoto-shrink_200_200/0?e=1564617600&v=beta&t=lM44fIk879yQP0bcgqIZGf0olFZZvTJFftklMCC4dYY" alt="Foto Patrick" title="Foto Patrick"
-          width="70" height="70">
-        <p class="profile-info">Bem vindx! Eu sou <strong>Desenvolvedor</strong> & <strong>Designer</strong> e aqui compartilho meu trabalho.</p>
-      </div>
+      <img class="header-img" src="/images/patrick-pereira-profile.jpg" alt="Foto Patrick" title="Foto Patrick"
+        width="70" height="70">
+      <h1><a class="header-heading" href="/" title="Patrick Pereira - Desenvolvedor Web">Olá! Eu sou Patrick.</a></h1>
+      <p class="header-info">Sou Desenvolvedor Web e aqui compartilho meu trabalho.</p>
     </header>
     <main class="home-main">
       <div class="list-jobs">
+        <div class="job" data-aos="fade-up">
+          <h2 class="job-heading">Eu Escolhi Amar</h2>
+          <p class="job-description">HTML, CSS e WordPress.</p>
+          <a class="job-link" href="https://euescolhiamar.org/" target="_blank"
+            title="Abre em outra aba">https://euescolhiamar.org/</a>
+        </div>
         <div class="job" data-aos="fade-up">
           <h2 class="job-heading">Temos Energia Solar</h2>
           <p class="job-description">Ecommerce com WooCommerce do Wordpress, HTML, CSS e JavaScript.</p>
@@ -77,29 +81,23 @@
     </main>
   </div>
   <footer class="home-footer">
-    <p>Obrigado! Entre em contato comigo:</p>
-    <address class="list-contacts">
+    <div class="list-contacts">
       <a href="mailto:patrickpereirak@gmail.com" target="_blank" title="Abre o aplicativo de email"><span
           class="fas fa-envelope"></span></a>
       <a href="https://www.linkedin.com/in/patrickpereirak/" target="_blank" title="Abre o Linkedin em outra aba"><span
           class="fab fa-linkedin-in"></span></a>
-      <a href="https://api.whatsapp.com/send?phone=+5535988057277&text=Ola%20Patrick!" target="_blank"
-        title="Abre o WhatsApp já com meu contato"><span class="fab fa-whatsapp"></span></a>
-      <address>
-        <a href="cel:(35)988057277" target="_blank" title="Liga para o meu número">(35) 98805-7277</a>
-      </address>
-      <address>
-        <a href="mailto:patrickpereirak@gmail.com" target="_blank"
-          title="Abre o aplicativo de email">patrickpereirak@gmail.com</a>
-      </address>
-      </div>
+      <a href="https://github.com/ptkpereira" target="_blank" title="Abre o GitHub em outra aba"><span
+          class="fab fa-github"></span></a>
+      <a href="https://twitter.com/ptkpereira_" target="_blank" title="Abre o Twitter em outra aba"><span
+          class="fab fa-twitter"></span></a>
+    </div>
 
   </footer>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>AOS.init({
-    once: true,
-    duration: 1000
-  });</script>
+      once: true,
+      duration: 1000
+    });</script>
 </body>
 
 </html>

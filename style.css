@@ -6,11 +6,11 @@
 
 body {
     font-size: 16px;
-    background-color: #292e34;
+    background-color: #ffffff;
 }
 
 a {
-    color: #7e94fb;
+    color: #3653d4;
 }
 
 .container {
@@ -18,31 +18,40 @@ a {
     margin-left: auto;
     margin-right: auto;
     padding: 2rem 1rem;
-    background-color: #292e34;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
 }
 
-.profile-heading {
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.header-img {
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: .5em;
+    padding-bottom: .1rem;
+}
+
+.header-heading {
     font-size: 2rem;
-    padding-bottom: 1rem;
-    color: #fff;
-    font-weight: 800;
+    color: #333;
+    font-weight: 700;
     text-decoration: none;
 }
 
-.profile {
-    display: flex;
-    padding: 1rem 0 1.5rem;
-}
-
-.profile-img {
-    border-radius: 50%;
-}
-
-.profile-info {
-    max-width: 60%;
-    padding-left: 1rem;
+.header-info {
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #333;
 }
 
 .list-jobs {
@@ -50,16 +59,8 @@ a {
     flex-direction: column;
 }
 
-.job:nth-child(odd) {
-    background: #274B74;
-    background: -webkit-linear-gradient(135deg, #274B74, #8233C5, #E963FD);
-    background: linear-gradient(135deg, #274B74, #8233C5, #E963FD);
-}
-
-.job:nth-child(even) {
-    background: #574BCD;
-    background: -webkit-linear-gradient(135deg, #574BCD, #2999AD, #41E975);
-    background: linear-gradient(135deg, #574BCD, #2999AD, #41E975);
+.job {
+    background: #3653d4;
 }
 
 .job {
@@ -101,27 +102,18 @@ a {
 }
 
 .list-contacts span {
-    font-size: 2rem;
-    margin: 0 1rem;
-    padding-bottom: 2rem;
+    font-size: 1.4rem;
+    margin: 0 .5rem;
 }
 
 footer p {
-    color: #7e94fb;
+    color: #3653d4;
     font-family: 'Montserrat', sans-serif;
 }
 
-address {
-    margin: 1rem 0;
-}
-
-address a {
-    text-decoration: none;
-}
-
-@media screen and (min-width: 576px) {
-    .profile-info {
-        padding-top: 1rem;
+@media (min-width: 576px) {
+    .header-info {
+        max-width: 50%;
     }
     .job {
         padding: 1rem 1rem 1.5rem;
