@@ -49,3 +49,16 @@ body {
     color: #000000;
   }
   
+.politica {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.politica > a:hover,
+.politica > a:visited,
+.politica > a:active,
+.politica > a {
+  color: gray;
+  text-decoration: none;
+  font-size: .8rem;
+}
